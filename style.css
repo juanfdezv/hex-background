@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 2.25em;
+    margin: 2em;
+}
+
+.btn-random{
+    padding: 1em 2em;
+    font-size: 1em;
+    border: 2.5px solid #000;
+    border-radius: 7px;
+    color: #000;
+    background-color: transparent;
+}
+
+.btn-random:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.089);
+}
